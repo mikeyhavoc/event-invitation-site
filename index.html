@@ -9,9 +9,8 @@
     <title>Event Invitation</title>
 </head>
 <body>
-   <header class="announcement__header">
+   <header class="nav__header">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarDropDown" aria-controls="navbarDropDown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -22,15 +21,33 @@
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="#">Our Story</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
+              <a class="nav-link" href="#">The Wedding</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Wedding Party</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Wedding Details</a>
             </li>
           </ul>
         </div>
       </nav>
    </header> 
+   <main>
+      <section class="announcement__section" id="announcement">
+          <div class="announcement__info info text-center">
+            <h2>- Mrs. and Mr. -</h2>
+            <h1 class="text-uppercase">we're engaged</h1>
+            <h6><time datetime="2023-08-02 19:00">2023-08-02 19:00</time>| St. Peter's Chapel</h6>
+          </div>
+      </section>
+      <section class="story__section story" id="our-story">
+          <h2 class="story__header story text-center">Our Story</h2>
+      </section>
+   </main>
 
    <script src="node_modules/jquery/dist/jquery.slim.js"></script>
    <script src="node_modules/popper.js/dist/popper.min.js"></script>
