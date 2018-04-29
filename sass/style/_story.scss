@@ -5,7 +5,15 @@ $story-section-bg-color: rgba(192, 245, 247, 0.918);
     background: $story-section-bg-color;
     background-size: cover;
 }
-.story__line {
-    background-color: $story-hr-color; 
+.story__line { // horizontal rule line.
+    background-color: $story-hr-color;
+    border-radius: 15%; 
+    height: 0.25em;
     width: 60%;
+}
+.story__img {
+    width: 50%;
+}
+.card {
+    display: inline-flex;
 }
