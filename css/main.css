@@ -11,8 +11,12 @@
   align-items: center;
   justify-content: center; }
 
+.no-padding {
+  padding-left: 0;
+  padding-right: 0; }
+
 .story__section {
-  background: rgba(192, 245, 247, 0.918);
+  background-color: rgba(192, 245, 247, 0.918);
   background-size: cover; }
 
 .story__line {
@@ -22,9 +26,12 @@
   width: 60%; }
 
 .story__img {
+  background-color: rgba(192, 245, 247, 0.918);
   width: 50%; }
 
 .card {
-  display: inline-flex; }
+  display: inline-flex;
+  align-items: center;
+  background-color: rgba(192, 245, 247, 0.918); }
 
 /*# sourceMappingURL=main.css.map */
