@@ -11,4 +11,20 @@
   align-items: center;
   justify-content: center; }
 
+.story__section {
+  background: rgba(192, 245, 247, 0.918);
+  background-size: cover; }
+
+.story__line {
+  background-color: #fff;
+  border-radius: 15%;
+  height: 0.25em;
+  width: 60%; }
+
+.story__img {
+  width: 50%; }
+
+.card {
+  display: inline-flex; }
+
 /*# sourceMappingURL=main.css.map */
