@@ -22,5 +22,7 @@ $story-section-bg-color: rgba(192, 245, 247, 0.918);
 }
 .card {
     display: inline-flex;
+    align-items: center;
     @include story-bg-color;
 }
+
