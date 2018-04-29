@@ -5,6 +5,11 @@ $story-section-bg-color: rgba(192, 245, 247, 0.918);
     background-color: $story-section-bg-color;
 }
 
+.no-padding { // overriding bootstraps 15px left and right for the 
+    padding-left: 0;
+    padding-right: 0;
+}
+
 .story__section {
     @include story-bg-color;
     background-size: cover;
