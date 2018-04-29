@@ -1,8 +1,9 @@
-
+$story-hr-color: #fff;
 .story__section {
     background: rgba(192, 245, 247, 0.918);
     background-size: cover;
 }
 .story__line {
+    background-color: $story-hr-color; 
     width: 60%;
 }
