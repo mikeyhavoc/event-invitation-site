@@ -1,8 +1,12 @@
 $story-hr-color: #fff;
 $story-section-bg-color: rgba(192, 245, 247, 0.918);
 
+@mixin story-bg-color { // mixing for bg-color use 
+    background-color: $story-section-bg-color;
+}
+
 .story__section {
-    background: $story-section-bg-color;
+    @include story-bg-color;
     background-size: cover;
 }
 .story__line { // horizontal rule line.
@@ -12,8 +16,11 @@ $story-section-bg-color: rgba(192, 245, 247, 0.918);
     width: 60%;
 }
 .story__img {
+    @include story-bg-color;
     width: 50%;
+    
 }
 .card {
     display: inline-flex;
+    @include story-bg-color;
 }
