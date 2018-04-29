@@ -37,37 +37,39 @@
       </nav>
    </header> 
    <main>
-     <div class="row">
-       <div class="col-sm-12">
-          <section class="announcement__section engagement" id="announcement">
-              <div class="announcement__info info text-center">
-                <h2>- Mrs. and Mr. -</h2>
-                <h1 class="text-uppercase">we're engaged</h1>
-                <h6><time datetime="2023-08-02 19:00">2023-08-02 19:00</time>| St. Peter's Chapel</h6>
-              </div>
-          </section>
-       </div>
-     </div>
+     <section class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12 no-padding">
+            <section class="announcement__section engagement" id="announcement">
+                <div class="announcement__info info text-center">
+                  <h2>- Mrs. and Mr. -</h2>
+                  <h1 class="text-uppercase">we're engaged</h1>
+                  <h6><time datetime="2023-08-02 19:00">2023-08-02 19:00</time>| St. Peter's Chapel</h6>
+                </div>
+            </section>
+        </div>
+      </div>
+    </section>
       
       <section class="story__section story" id="our-story">
           <h2 class="story__header story text-center">Our Story</h2>
           <hr class="story__line story">
-          <article class="story__article story card-group">
-            <div class="card">
-                <img src="./imgs/bride-to-be.jpg" alt="Bride to be, close up of her beautiful face and blue eyes." class="story__img bride story card-img-top">
-                <div class="card-body text-center">
-                  <h4 class="story__title bride card-title">Bride</h4>
-                  <p class="story_info bride card-text">
-                    This is a paragraph about the bride to be. Please replace
-                    when you find something more interesting about the bride to 
-                    be. And want to share it for all to see! :) 
-                  </p>
-
-                </div>
-            </div>
-            
-
-          </article>
+          <div class="card-group">
+            <article class="story__article story card" id="bride-story">
+              <img src="./imgs/bride-to-be.jpg" alt="Bride to be, close up of her beautiful face and blue eyes." class="story__img bride story card-img-top">
+              <div class="card-body text-center">
+                <h4 class="story__title bride card-title">Bride</h4>
+                <p class="story_info bride card-text">
+                  This is a paragraph about the bride to be. Please replace
+                  when you find something more interesting about the bride to 
+                  be. And want to share it for all to see! :) 
+                </p>
+              </div>
+            </article>
+            <article class="story__article story card">
+              <img src="./imgs/groom-to-be.jpg" alt="groom to be photo close up" class="story__img story card" id="groom-story">
+            </article>
+          </div>
             
       </section>
    </main>
