@@ -16,14 +16,16 @@
   padding-right: 0; }
 
 .story__section {
+  padding-top: 2em;
+  padding-bottom: 2em;
   background-color: rgba(192, 245, 247, 0.918);
   background-size: cover; }
 
 .story__line {
   background-color: #fff;
   border-radius: 15%;
-  height: 0.25em;
-  width: 60%; }
+  height: 0.15em;
+  width: 35%; }
 
 .story__img {
   background-color: rgba(192, 245, 247, 0.918);
@@ -33,5 +35,22 @@
   display: inline-flex;
   align-items: center;
   background-color: rgba(192, 245, 247, 0.918); }
+
+.big-day__section {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  background-color: rgba(192, 245, 247, 0.918); }
+
+.big-day__line {
+  background-color: #fff;
+  border-radius: 15%;
+  height: 0.15em;
+  width: 35%; }
+
+.big-day__article {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
 
 /*# sourceMappingURL=main.css.map */
