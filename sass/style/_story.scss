@@ -9,10 +9,7 @@
     background-size: cover;
 }
 .story__line { // horizontal rule line.
-    background-color: $hr-color;
-    border-radius: 15%; 
-    height: 0.15em;
-    width: 60%;
+  @include hr-rule;
 }
 .story__img {
     background-color: $primary-bg-color;
