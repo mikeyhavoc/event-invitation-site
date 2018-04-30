@@ -3,6 +3,10 @@
   background-color: $primary-bg-color;
 }
 
+.big-day__line {
+  @include hr-rule;
+}
+
 .big-day__article {
   @include flex-center-content;
   flex-direction: column;
