@@ -1,0 +1,7 @@
+
+@mixin hr-rule {
+  background-color: $hr-color;
+  border-radius: 15%;
+  height: 0.15em;
+  width: 35%;
+}
