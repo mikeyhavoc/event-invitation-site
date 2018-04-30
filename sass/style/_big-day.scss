@@ -1,4 +1,9 @@
 
+.big-day__section {
+  background-color: $primary-bg-color;
+}
+
 .big-day__article {
-  @include inline-flex-center;
+  @include flex-center-content;
+  flex-direction: column;
 }
