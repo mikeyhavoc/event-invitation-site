@@ -1,5 +1,6 @@
 
 .big-day__section {
+  @include padding(2em);
   background-color: $primary-bg-color;
 }
 
