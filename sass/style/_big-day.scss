@@ -12,3 +12,7 @@
   @include flex-center-content;
   flex-direction: column;
 }
+
+.img-padding {
+  @include padding(2.5em);
+}
