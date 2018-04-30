@@ -1,9 +1,7 @@
 $story-hr-color: #fff;
-$story-section-bg-color: rgba(192, 245, 247, 0.918);
+$primary-bg-color: rgba(192, 245, 247, 0.918);
 
-@mixin story-bg-color { // mixing for bg-color use 
-    background-color: $story-section-bg-color;
-}
+
 
 .no-padding { // overriding bootstraps 15px left and right for the 
     padding-left: 0;
@@ -11,7 +9,7 @@ $story-section-bg-color: rgba(192, 245, 247, 0.918);
 }
 
 .story__section {
-    @include story-bg-color;
+    background-color: $primary-bg-color;
     background-size: cover;
 }
 .story__line { // horizontal rule line.
@@ -21,13 +19,13 @@ $story-section-bg-color: rgba(192, 245, 247, 0.918);
     width: 60%;
 }
 .story__img {
-    @include story-bg-color;
+    background-color: $primary-bg-color;
     width: 50%;
     
 }
 .card {
     display: inline-flex;
     align-items: center;
-    @include story-bg-color;
+    background-color: $primary-bg-color;
 }
 
