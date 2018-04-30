@@ -5,6 +5,7 @@
 }
 
 .story__section {
+    @include padding-top-bottom(2em);
     background-color: $primary-bg-color;
     background-size: cover;
 }
