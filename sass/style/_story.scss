@@ -11,7 +11,7 @@
 .story__line { // horizontal rule line.
     background-color: $hr-color;
     border-radius: 15%; 
-    height: 0.25em;
+    height: 0.15em;
     width: 60%;
 }
 .story__img {
@@ -20,8 +20,7 @@
     
 }
 .card {
-    display: inline-flex;
-    align-items: center;
+    @include inlineflex-center-items;
     background-color: $primary-bg-color;
 }
 
