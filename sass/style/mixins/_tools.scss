@@ -6,7 +6,12 @@
   width: 35%;
 }
 
-@mixin padding-top-bottom($num) {
+@mixin padding($num) {
   padding-top: $num;
   padding-bottom: $num;
+}
+
+@mixin padding-top-bottom($top, $bottom) {
+  padding-top: $top;
+  padding-bottom: $bottom;
 }
