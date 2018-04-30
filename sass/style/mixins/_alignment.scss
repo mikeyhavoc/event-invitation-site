@@ -5,3 +5,8 @@
   align-items: center;
   justify-content: center;
 }
+
+@mixin inlineflex-center-items {
+  display: inline-flex;
+  align-items: center;
+}
