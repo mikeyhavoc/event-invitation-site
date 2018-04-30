@@ -1,0 +1,7 @@
+
+// mixin scripts for alignment.
+@mixin flex-center-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
