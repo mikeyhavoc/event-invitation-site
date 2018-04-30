@@ -1,7 +1,3 @@
-$story-hr-color: #fff;
-$primary-bg-color: rgba(192, 245, 247, 0.918);
-
-
 
 .no-padding { // overriding bootstraps 15px left and right for the 
     padding-left: 0;
@@ -13,7 +9,7 @@ $primary-bg-color: rgba(192, 245, 247, 0.918);
     background-size: cover;
 }
 .story__line { // horizontal rule line.
-    background-color: $story-hr-color;
+    background-color: $hr-color;
     border-radius: 15%; 
     height: 0.25em;
     width: 60%;
