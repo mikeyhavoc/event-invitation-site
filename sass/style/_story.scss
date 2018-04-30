@@ -17,7 +17,7 @@
     
 }
 .card {
-    @include inlineflex-center-items;
+    @include inline-flex-align; // align items
     background-color: $primary-bg-color;
 }
 
