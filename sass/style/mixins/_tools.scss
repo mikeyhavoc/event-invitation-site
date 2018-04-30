@@ -5,3 +5,8 @@
   height: 0.15em;
   width: 35%;
 }
+
+@mixin padding-top-bottom($top, $bottom) {
+  padding-top: $top;
+  padding-bottom: $bottom;
+}
