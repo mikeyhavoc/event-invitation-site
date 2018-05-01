@@ -51,7 +51,7 @@
       </div>
     </div>
       
-      <div class="story__section story" id="our-story">
+      <div class="story__div story" id="our-story">
           <h2 class="story__header story text-center">Our Story</h2>
           <hr class="story__line story">
           <div class="card-group">
@@ -79,13 +79,13 @@
             </article>
           </div>
       </div>
-       <div class="big-day__section day" id="day">
+       <div class="big-day__div day" id="day">
            <div class="container-fluid">
                <div class="row">
                    <div class="col-sm-12 col-md-6">
                        <article class="big-day__article day" id="big-day-article">
                            <h2 class="big-day__header day">Big Day</h2>
-                           <hr class="big-day__line day">
+                           <hr class="big-day__hr day">
                            <p class="text-center">When <br>
                            <span><time datetime="2023-01-09 19:00">01. 9. 2023 19:00</time></span></p>
                            <p class="text-center">Where</p>
@@ -104,7 +104,41 @@
 
            </div>
        </div>
-       .details__section#details
+       <div class="details__div container-fluid" id="details">
+           <div class="row">
+               <div class="col-sm-12">
+                   <h2 class="text-center">Getting There</h2>
+                   <hr class="details__hr">
+               </div>
+           </div>
+           <div class="row">
+               <section class="col-sm-12 col-md-6 accommodations__section">
+                   <h3 class="text-center text-capitalize">accommodations</h3>
+                   <p class="text-center">
+                       I'm a paragraph. Click here to add your own text and edit me.
+                       It’s easy. Just click “Edit Text” or double click me to add your
+                       own content and make changes to the font. Feel free to drag and
+                       drop me anywhere you like on your page. I’m a great place for you
+                       to tell a story
+                   </p>
+               </section>
+               <section class="col-sm-12 col-md-6 transportation__section">
+                   <h3 class="text-center text-capitalize">transportation</h3>
+                   <p class="text-center">
+                       I'm a paragraph. Click here to add your own text and edit me.
+                       It’s easy. Just click “Edit Text” or double click me to add
+                       your own content and make changes to the font. Feel free to drag
+                       and drop me anywhere you like on your page. I’m a great place for
+                       you to tell a story
+                   </p>
+               </section>
+           </div>
+           <div class="row">
+               <div class="col-sm-12 text-center">
+                   <button class="btn btn-primary">View Map</button>
+               </div>
+           </div>
+       </div>
    </main>
 
    <script src="node_modules/jquery/dist/jquery.slim.js"></script>
