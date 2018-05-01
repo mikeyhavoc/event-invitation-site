@@ -9,7 +9,7 @@
     background-color: $primary-bg-color;
     background-size: cover;
 }
-.story__line { // horizontal rule line.
+.story__hr { // horizontal rule line.
   @include hr-rule;
 }
 .story__img {
