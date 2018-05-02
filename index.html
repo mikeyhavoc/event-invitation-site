@@ -104,6 +104,15 @@
 
            </div>
        </div>
+       <div class="wedding-party__div" id="party">
+           <div class="container-fluid">
+               <div class="row">
+                   <section class="col-md-12 section__brides ">
+
+                   </section>
+               </div>
+           </div>
+       </div>
        <div class="details__div container-fluid" id="details">
            <div class="row">
                <div class="col-sm-12">
@@ -161,24 +170,36 @@
                <div class="col-sm-12 col-lg-6">
                    <form action="#">
                        <div class="col-sm-12 col-md-6">
-                           <label for="first-name">*First Name</label><br>
-                           <input type="text" class="form-control" id="first-name" placeholder="First Name" required>
+                           <div class="form-group">
+                               <label for="first-name">*First Name</label><br>
+                               <input type="text" class="form-control" id="first-name" placeholder="First Name" required>
+                           </div>
                        </div>
                        <div class="col-sm-12 col-md-6">
-                           <label for="last-name">*Last Name</label><br>
-                           <input type="text" class="form-control" id="last-name" placeholder="Last Name" required>
+                           <div class="form-group">
+                               <label for="last-name">*Last Name</label><br>
+                               <input type="text" class="form-control" id="last-name" placeholder="Last Name" required>
+                           </div>
                        </div>
                        <div class="col-sm-12">
-                           <label for="email">*Email</label><br>
-                           <input type="email" class="form-control" id="email" placeholder="Email" required>
+                           <div class="form-group">
+                               <label for="email">*Email</label><br>
+                               <input type="email" class="form-control" id="email" placeholder="Email" required>
+                           </div>
                        </div>
                        <div class="col-sm-12">
-                           <label for="meal-request">Meal Request</label><br>
-                           <textarea name="" id="meal-request" rows="3" class="form-control"></textarea>
+                           <div class="form-group">
+                               <label for="meal-request">Meal Request</label><br>
+                               <textarea name="" id="meal-request" rows="3" class="form-control"></textarea>
+                           </div>
                        </div>
                        <div class="col-sm-12">
-                           <label for=""></label>
+                          <div class="form-group form-check">
+                              <input type="checkbox" class="form-check-input" id="plus-one">
+                              <label for="plus-one">I'm bringing a plus one</label>
+                          </div>
                        </div>
+                       <button type="submit" class="btn btn-primary btn-block">Submit</button>
                    </form>
                </div>
            </div>
