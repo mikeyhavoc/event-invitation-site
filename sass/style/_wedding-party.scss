@@ -15,3 +15,6 @@
   .bridesmaids__header {
     @include padding-top-bottom(1em, 0.25em);
   }
+  .section__groomsmen {
+    background-color: $secondary-bg-color;
+  }
