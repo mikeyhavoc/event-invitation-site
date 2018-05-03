@@ -1,0 +1,138 @@
+.announcement__section {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../imgs/bridal-groombride-feet.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: #fafafad8;
+  width: 100%;
+  height: 25em; }
+
+.engagement {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.no-padding {
+  padding-left: 0;
+  padding-right: 0; }
+
+.story__div {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  background-color: rgba(192, 245, 247, 0.918);
+  background-size: cover; }
+
+.story__hr {
+  border-top: #fff;
+  background-color: #fff;
+  border-radius: 15%;
+  height: 0.15em;
+  width: 35%; }
+
+.story__img {
+  background-color: rgba(192, 245, 247, 0.918);
+  width: 50%; }
+
+.card {
+  display: inline-flex;
+  align-items: center;
+  background-color: rgba(192, 245, 247, 0.918); }
+
+.bridesmaids__group {
+  padding-top: 2.5em;
+  padding-bottom: 2.5em;
+  background-color: rgba(192, 245, 247, 0.918); }
+
+.groomsmen__group {
+  padding-top: 2.5em;
+  padding-bottom: 2.5em;
+  background-color: white; }
+
+.groomsmen__text {
+  padding-left: 0.5em;
+  padding-right: 0.5em; }
+
+.bridesmaid__text {
+  padding-left: 0.5em;
+  padding-right: 0.5em; }
+
+.bridesmaids__hr {
+  border-top: #fff;
+  background-color: #fff;
+  border-radius: 15%;
+  height: 0.15em;
+  width: 35%; }
+
+.groomsmen__hr {
+  border-top: #fff;
+  background-color: #fff;
+  border-radius: 15%;
+  height: 0.15em;
+  width: 35%; }
+
+.bridesmaids-detail__div {
+  padding-top: 2em;
+  padding-bottom: 2em; }
+
+.bridesmaids__header {
+  padding-top: 1em;
+  padding-bottom: 0.25em; }
+
+.groomsmen__header {
+  padding-top: 1em;
+  padding-bottom: 0.25em; }
+
+.section__groomsmen {
+  background-color: #fffbfb; }
+
+.big-day__div {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  background-color: rgba(192, 245, 247, 0.918); }
+
+.big-day__hr {
+  border-top: #fff;
+  background-color: #fff;
+  border-radius: 15%;
+  height: 0.15em;
+  width: 35%; }
+
+.big-day__article {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+
+.img-padding {
+  padding-top: 2.5em;
+  padding-bottom: 2.5em; }
+
+.details__div {
+  padding-top: 2.5em;
+  padding-bottom: 2.5em;
+  background-color: rgba(192, 245, 247, 0.918); }
+
+.details__hr {
+  border-top: #fff;
+  background-color: #fff;
+  border-radius: 15%;
+  height: 0.15em;
+  width: 35%; }
+
+.accommodations__section {
+  padding-top: 1em;
+  padding-bottom: 2em; }
+
+.transportation__section {
+  padding-top: 1em;
+  padding-bottom: 2em; }
+
+.registry__div {
+  padding-top: 2.5em;
+  padding-bottom: 2.5em; }
+
+.rsvp__div {
+  padding-top: 2.5em;
+  padding-bottom: 2.5em;
+  background-color: rgba(192, 245, 247, 0.918); }
+
+/*# sourceMappingURL=main.css.map */
