@@ -1,7 +1,11 @@
 
-.wedding-party__div {
+.bridesmaids__group {
   @include padding(2.5em);
   background-color: $primary-bg-color;
+}
+.groomsmen__group {
+  @include padding(2.5em);
+  background-color: white;
 }
 
   .bridesmaids__hr {
@@ -16,5 +20,6 @@
     @include padding-top-bottom(1em, 0.25em);
   }
   .section__groomsmen {
-    background-color: $secondary-bg-color;
+    background-color: #fffbfb;
+
   }
