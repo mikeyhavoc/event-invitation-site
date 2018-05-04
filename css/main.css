@@ -18,8 +18,7 @@
 .story__div {
   padding-top: 2em;
   padding-bottom: 2em;
-  background-color: rgba(192, 245, 247, 0.918);
-  background-size: cover; }
+  background-color: rgba(192, 245, 247, 0.918); }
 
 .story__hr {
   border-top: #fff;
