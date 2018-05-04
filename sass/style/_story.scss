@@ -7,7 +7,7 @@
 .story__div {
     @include padding(2em);
     background-color: $primary-bg-color;
-    background-size: cover;
+
 }
 .story__hr { // horizontal rule line.
   @include hr-rule;
@@ -21,4 +21,5 @@
     @include inline-flex-align; // align items
     background-color: $primary-bg-color;
 }
+
 
