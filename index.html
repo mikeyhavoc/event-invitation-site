@@ -7,21 +7,6 @@
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/main.css">
     <title>Event Invitation</title>
-    <script type="text/javascript">
-        $(document).ready(function(){
-            $(window).scroll(function(){
-                if($(this).scrollTop() > 100){
-                    $('#scroll').fadeIn();
-                }else{
-                    $('#scroll').fadeOut();
-                }
-            });
-            $('#scroll').click(function(){
-                $("html, body").animate({ scrollTop: 0 }, 600);
-                return false;
-            });
-        });
-    </script>
 </head>
 <body>
    <header class="nav__header">
@@ -345,7 +330,8 @@
            </div>
        </div>
    </main>
-   <script src="node_modules/jquery/dist/jquery.slim.js"></script>
+   <a href="javascript:void(0);" id="scroll" title="Scroll to Top" style="display: none;">Top<span></span></a>
+   <script src="node_modules/jquery/dist/jquery.min.js"></script>
    <script src="node_modules/popper.js/dist/popper.min.js"></script>
    <script src="js/bootstrap.js"></script>
    <script src="js/main.js"></script>
