@@ -7,6 +7,21 @@
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/main.css">
     <title>Event Invitation</title>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $(window).scroll(function(){
+                if($(this).scrollTop() > 100){
+                    $('#scroll').fadeIn();
+                }else{
+                    $('#scroll').fadeOut();
+                }
+            });
+            $('#scroll').click(function(){
+                $("html, body").animate({ scrollTop: 0 }, 600);
+                return false;
+            });
+        });
+    </script>
 </head>
 <body>
    <header class="nav__header">
